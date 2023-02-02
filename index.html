@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="SEULGI" />
+        <meta property="og:description" content="hi_seulgi" />
+        <meta property="og:image" content="프로필.png" />
+        <title>About SEULGI</title>
+        <style>
+            @font-face {
+                font-family: 'GowunDodum-Regular';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+            body {
+                font-family: 'GowunDodum-Regular';
+                background-color: #BFA288;
+            }
+            .wrap {
+                width: 300px;
+                margin: 30px auto 0px auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+
+                border-radius: 100%;
+
+                border: 2px solid #8C6B42;
+
+                background-image: url(프로필.png);
+                background-position: center;
+                background-size: cover;
+            }
+            .main {
+                color: #402515;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub{
+                color: #402515;
+                font-size: 14px;
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+
+                background-color: #B07A53;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: #e4cdb9;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px rgb(109, 109, 109);
+            }
+            .wrap > a:hover {
+                background-color: #b07a5393;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">SEULGI</h1>
+            <p class="sub">남을 쫓아가지 않는 것</p>
+            <a target="_blank" href="https://www.instagram.com/hi_sseulgi/">hi_sseulgi</a>
+            <a target="_blank" href="https://www.instagram.com/by.sseulgi/">by.sseulgi</a>
+            <a target="_blank" href="https://www.youtube.com/@redvelvet">Youtube</a>
+            <a target="_blank" href="https://open.spotify.com/artist/1z4g3DjTBBZKhvAroFlhOM?si=nNPI4S-BQASYdD-TrbaGwQ&nd=1">Spotify</a>
+        </div>
+    </body>
+</html>
